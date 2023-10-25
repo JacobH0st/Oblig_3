@@ -1,0 +1,5 @@
+name:  test_koden
+on: [push]
+jobs:
+  isleapyear:
+    runs_on:
