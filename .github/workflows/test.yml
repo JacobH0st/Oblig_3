@@ -6,9 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
       - name: install Packeges
         run: pip install pytest
-
       - name: run test
         run: pytest tester/test_leapyear.py
