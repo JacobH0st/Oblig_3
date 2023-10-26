@@ -1,4 +1,4 @@
-from Kode.leapyear import isLeapYear
+from leapyear import isLeapYear
 
 
 def test_leapyear_devidable_by_four():
