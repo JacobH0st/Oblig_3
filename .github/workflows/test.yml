@@ -9,4 +9,4 @@ jobs:
       - name: install Packeges
         run: pip install pytest
       - name: run test
-        run: pytest tester/test_leapyear.py
+        run: pytest test_leapyear.py
