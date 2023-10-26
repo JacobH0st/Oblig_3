@@ -1,5 +1,14 @@
 name:  test_koden
-on: [push]
+on: push
 jobs:
   isleapyear:
-    runs_on:
+    runs_on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: install Packeges
+        run: pip install pytest
+
+      - name: run test
+        run: pytest tester/test_leapyear.py
